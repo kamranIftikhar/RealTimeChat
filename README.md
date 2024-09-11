@@ -1,42 +1,35 @@
-Personal Portfolio Website
+Real-Time Chat Application
 
 Description:
 
-This is a Personal Portfolio Website built using ASP.NET Core MVC. It showcases my projects, experience, and skills in a clean and modern design. The site also includes a contact form for potential clients or employers to reach out.
+This is a Real-Time Chat Application built with ASP.NET Core and SignalR. It allows multiple users to communicate in real time. Users can send messages, and the app broadcasts them instantly to all connected clients.
 
 Features:
 
-Home Page: Displays a brief introduction, skills summary, and personal statement.
+Real-time messaging using SignalR.
 
-Projects Page: Showcases the projects I have worked on with descriptions and GitHub links.
+Multiple users can join and chat simultaneously.
 
-Resume Page: Provides an overview of my work experience and education, along with a downloadable resume.
-
-Contact Page: A contact form that allows users to send messages directly, with form validation.
+Simple and responsive interface using Bootstrap.
 
 Tech Stack:
 
-Frontend: HTML, CSS, Bootstrap
+Frontend: HTML, CSS, Bootstrap, SignalR JavaScript client
 
-Backend: ASP.NET Core MVC, C#
-
-Database: Entity Framework Core (optional for dynamic content management)
-
-Styling: Bootstrap for responsiveness
+Backend: ASP.NET Core, SignalR for real-time communication
 
 Deployment: Compatible with Azure, AWS, or any .NET-supported hosting platforms.
 
-
 Running Locally:
 
-Clone the repository:
+Install the SignalR package:
 
 bash
 
 Copy code
 
-git clone https://github.com/yourusername/your-repo-name.git
+Install-Package Microsoft.AspNetCore.SignalR
 
-Open the solution in Visual Studio.
+Run the application in Visual Studio.
 
-Run the application.
+Open the browser and navigate to /Chat/Index to start chatting.
